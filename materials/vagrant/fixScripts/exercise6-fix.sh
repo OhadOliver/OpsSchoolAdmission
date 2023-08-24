@@ -1,6 +1,5 @@
 #!/bin/bash
 #add fix to exercise6-fix here
-#!/bin/bash
 script6(){
 	if [ "$HOSTNAME" == "server1" ]; then
 		scp "$1" "$2" "vagrant@server2:$3"
